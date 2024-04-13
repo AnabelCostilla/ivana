@@ -1,0 +1,99 @@
+body{
+  background-color: #1f1d1df9;
+    text-align: center;
+    text-decoration: none;
+    color:#f4efef;
+    margin:90px;
+    font-family: 'Shojumaru', cursive;
+
+     }
+      body a{
+      text-align: center;
+       text-decoration: none;
+       color:#f0e2e2;
+       margin:2%;
+       font-family: 'Shojumaru', cursive;
+        }
+       
+ .menuanime {
+    width: 900px;
+    height: 50px;
+    position:absolute;
+    padding:0;
+    margin:0; 
+    color:#ffffff   
+} 
+.menu__ulanime {
+  list-style: none;
+   display: flex;
+  color: #efe6e6;
+   justify-content: center;
+   font-size: 18px;
+   margin-inline-start: 55%;
+   margin-top:-25px;
+} 
+.menu__ulanime li {
+  margin: 0 10px;
+}
+.columnas3{
+  display: flex;
+  margin: 0 px;
+  padding: 0px;
+  
+}
+.columnauna,.columnatres,h1{
+  
+  width: 200px;
+  height: 20px;
+  padding: 0%;
+  margin: 5%;
+  font-size:100%;
+  text-align: left;
+  position: absolute;
+}
+.columnados{
+ width: 100%;
+ height: 60px;
+ padding: 0%;
+  margin: 0%;
+  font-size:100%;
+  
+}
+
+.imganime{
+margin:0px;
+padding: 0px;
+  width: 500px;
+  height: 800px;
+  margin:90px;
+ }
+/*  responsive */
+
+@media  (max-width: 900px) {
+  .menu__ulanime {
+    font-size:40px;
+    margin:-59px;
+    
+  }
+  .hearanim{
+    width: 900px;
+    height: 190px;
+    margin:9px;
+  }
+  img{
+    width: 890px;
+    height: 600px;
+    margin: 9px;
+  }
+  .imganime{
+    width: 500px;
+    height: 800px;
+    margin:90px;
+  }
+   }
+
+  
+@media only screen and (max-width: 480px) {
+
+}
+  

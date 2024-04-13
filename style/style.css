@@ -1,0 +1,254 @@
+body{
+  background-color: black;
+   background-image: url("../yvy/body.png");
+   width: 100%;
+   opacity: 0.8;
+  }
+  img a{
+    width: 120%;   /*--img footer sombrero--*/
+    height: 250px;
+   position:absolute;
+  }
+  .header{
+    padding:0px;
+    margin: 0px;
+    width: 95%;
+    margin: auto;
+    height:110px;
+    margin-left: 10x;
+    position: relative;
+    animation-name:example;
+    animation-duration: 2s;
+    animation-direction: reverse;
+  }
+  @keyframes example {
+    0%   {background-color:rgb(59, 44, 44); left:0px; top:0px;}
+    15%  {background-color:rgba(251, 253, 251, 0.32); left:0px; top:200px;}
+    70% {background-color:rgba(83, 81, 81, 0.07); left:0px; top:0px;}
+  }
+  .row {
+   display:-webkit-flex;
+   display: flex;
+   color: rgb(240, 247, 245);
+   font-size:20px ;
+   font-family: 'Shojumaru', cursive;
+  }
+  .column a{
+   border: 2px;
+  border-color: white;
+  color:#ffffff;
+  text-decoration: none;
+     }
+  
+  .col {
+   list-style-type: none;
+   background-color: rgb(0, 0, 0);
+   margin:-44px;
+   border: 4px;
+   border-color: white;
+   border-style: solid;
+   width: 250px;
+   height:200px;
+  margin-bottom: 5cm;
+  margin-block: 26px;
+  margin-inline-start:58px;
+  
+  }
+  
+  .footer{
+    background-color: rgb(27, 26, 26);
+     width: 85%;
+     height:50px;
+     margin-left:2%;
+     margin-top:0px;
+     position:absolute;
+     }
+  
+     .deslizar__footer{
+      padding:0px;
+      margin: 0px;
+      width: 2%;
+      margin:initial;
+      height:40px;
+      margin-left: 10x;
+      position:absolute;
+      animation-name:desliz;
+      animation-duration:5s;
+      animation-direction: reverse;
+      background-color: rgb(101, 25, 25);
+    z-index: 2;
+     }
+     @keyframes desliz {
+      0% {background-color: rgb(11, 10, 10); left: 700px; top:0px;}
+      15% {background-color: rgb(176, 50, 50); left:400px; top:0px;}
+      70% {background-color: rgb(88, 53, 185); left:700px; top:0px;}
+    }
+  .logos{ 
+  width: 20px;
+  height: 100px;
+  list-style: none;
+  display:flexbox;
+  flex-direction: row;
+  margin-block-end: 5em;
+  margin-inline-start: 500px;
+  margin-inline-end: 5px;
+  padding-inline-start: 162px;
+  top:9px;   
+  z-index: -12px;
+  position:absolute;
+  }
+  li a img .logos__redes{
+   position:static;
+   margin:13px;
+   width: 317px;
+   height: 2px;
+   margin-right:2PX;
+   margin-block: auto;
+   display: list-item;
+   list-style: none;
+   text-align:center;
+  }
+  
+  
+  
+  @media (max-width: 600px) {
+    .column {
+      width: 100%; 
+     }
+      }
+      .footer{
+       background-color: rgb(21, 19, 19);
+        width: 90%;
+        height:60px;
+        margin-left:3%;
+        margin-top:25px;
+        position:sticky;
+        }
+         .deslizar__footer{
+          padding:0px;
+          margin: 0px;
+          width: 5%;
+          margin:initial;
+          height:40px;
+          margin-left: 10x;
+          position:absolute;
+          animation-name:desliz;
+          animation-duration:5s;
+          animation-direction: reverse;
+          background-color: rgb(101, 25, 25);
+        z-index: 2;
+         }
+         @keyframes desliz {
+          0% {background-color: rgb(11, 10, 10); left: 700px; top:0px;}
+          15% {background-color: rgb(176, 50, 50); left:400px; top:0px;}
+          70% {background-color: rgb(88, 53, 185); left:700px; top:0px;}
+        }
+  .logos{ 
+    width: 20px;
+  height: 10px;
+  list-style: none;
+  display: -webkit-box;
+  margin-block-end: 5em;
+  margin-inline-start: 500px;
+  margin-inline-end: 5px;
+  padding-inline-start: 162px;
+  top:-9%;   
+  z-index: -12;
+      }
+      .logos__redes{
+       position:static;
+       margin:-3px;
+       width: 40px;
+       margin-right:100px;
+       margin-inline-start:-93px;
+      }
+      @media (max-width: 900px) {
+        body{
+           width:90px;
+           
+          }
+          img a{
+            width: 520px;   /*--img footer sombrero--*/
+            height: 450px;
+           
+          }
+          .header{
+           width: 600px;
+            height:110px;
+            margin-left: 7px;
+          }
+          
+          .row {
+            width:500px;
+           font-size:20px;
+           }
+          .column a{
+           border: 4px;
+           margin: 20px;
+             }
+          
+          .col {
+          margin:-40px;
+           border:15px;
+           width:140px;
+           height:250px;
+          margin-bottom:20cm;
+          margin-block: 20px;
+          margin-inline-start:45px;
+          }
+          
+          .footer{
+            width:650px;
+             height:50px;
+             margin-left:2%;
+             margin-top:0px;
+             position:absolute;
+             }
+          
+             .deslizar__footer{
+              padding:0px;
+              margin: 0px;
+              width: 2%;
+              margin:initial;
+              height:40px;
+              margin-left: 10x;
+              position:absolute;
+              animation-name:desliz;
+              animation-duration:5s;
+              animation-direction: reverse;
+              background-color: rgb(101, 25, 25);
+            z-index: 2;
+             }
+             @keyframes desliz {
+              0% {background-color: rgb(11, 10, 10); left: 700px; top:0px;}
+              15% {background-color: rgb(176, 50, 50); left:400px; top:0px;}
+              70% {background-color: rgb(88, 53, 185); left:700px; top:0px;}
+            }
+          .logos{ 
+          width: 900px;
+          height: 10px;
+          list-style: none;
+          display:contents;
+          margin-block-end: 5em;
+          margin-inline-start: 5px;
+          margin-inline-end: 5px;
+          padding-inline-start: 16px;
+          top:9%;   
+          z-index: -12px;
+          position:absolute;
+          }
+          .logos__redes{
+           position:relative;
+           margin:5px;
+           width:50px;
+           height: 30px;
+           margin-right:40PX;
+           margin-block:initial;
+           display:table-cell;
+           list-style: none;
+           text-align:center;
+          }
+          
+  
+  
+         }

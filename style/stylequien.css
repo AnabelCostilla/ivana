@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    text-align: center;
+    margin-top:3%;
+    width: 1%;
+}
+body a{
+    text-align: center;
+    text-decoration: none;
+    color:#ffffff;
+    margin:30px;
+    margin-inline-start:10px;
+    font-family: 'Shojumaru', cursive;
+    font-size: 15px;
+   
+    }
+.menu {
+    height: 2%;
+    position:absolute;
+    padding:0;
+    margin:0;
+    text-align: end;
+}
+.menu__ul{
+   list-style: none;
+    display:inline-block;
+    justify-content: center;
+    font-size: 18px;
+    margin-inline-start:600px;
+    margin-top:-20px;
+} 
+ul{ 
+    padding: 0;
+    margin: 0;
+}
+li{
+    display: inline-block;
+    margin-right:1px;
+}
+img{
+    
+    width:800px;
+    margin-top:45px;
+}
+
+
+@media (max-width: 900px){
+  
+    .menu__ul{
+        width: 100%;
+        left: 50%;
+        font-size: 38px;
+        margin-inline-start:100px; 
+    } 
+   
+    li a{
+        display: inline-block;
+        margin-right:3px;
+        font-size: 50%;
+    }
+
+    img{
+        width:450px;
+        margin-top:255px;
+    }
+
+}
+
+
+
